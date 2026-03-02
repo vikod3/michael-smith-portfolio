@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import LoadingScreen from "@/components/LoadingScreen";
 import Hero from "@/components/Hero";
+import SelectedWorks from "@/components/SelectedWorks";
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -20,6 +21,7 @@ const Index = () => {
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
         <Hero />
+        <SelectedWorks />
       </motion.div>
     </>
   );

@@ -76,3 +76,14 @@
 .animate-role-fade-in {
   animation: role-fade-in 0.4s ease-out forwards;
 }
+
+/* Animated gradient border */
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.animated-gradient-border {
+  background-size: 300% 300%;
+  animation: gradient-shift 6s ease infinite;
+}
