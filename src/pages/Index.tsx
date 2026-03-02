@@ -5,6 +5,8 @@ import Hero from "@/components/Hero";
 import SelectedWorks from "@/components/SelectedWorks";
 import Journal from "@/components/Journal";
 import Explorations from "@/components/Explorations";
+import Stats from "@/components/Stats";
+import Contact from "@/components/Contact";
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -26,6 +28,8 @@ const Index = () => {
         <SelectedWorks />
         <Journal />
         <Explorations />
+        <Stats />
+        <Contact />
       </motion.div>
     </>
   );
