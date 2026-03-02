@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import LoadingScreen from "@/components/LoadingScreen";
 import Hero from "@/components/Hero";
 import SelectedWorks from "@/components/SelectedWorks";
+import Journal from "@/components/Journal";
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,6 +23,7 @@ const Index = () => {
       >
         <Hero />
         <SelectedWorks />
+        <Journal />
       </motion.div>
     </>
   );
