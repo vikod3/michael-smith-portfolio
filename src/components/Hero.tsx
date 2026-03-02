@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const ROLES = ["Creative", "Fullstack", "Founder", "Scholar"];
 const VIDEO_SRC =
-  "https://stream.mux.com/Gs3wZfrtz6ZfqZqQ02c02Z7lugV00FGZvRpcqFTel66r3g.m3u8";
+  "https://stream.mux.com/Aa02T7oM1wH5Mk5EEVDYhbZ1ChcdhRsS2m1NYyx4Ua1g.m3u8";
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
